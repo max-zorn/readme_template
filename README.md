@@ -9,32 +9,42 @@
 
 **Contacts:** [Maxim.Zhukov@softline.com](Maxim.Zhukov@softline.com)
 
-
 </div>
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ## 📖 Description
 Simple project description with few examples, schemas and gifs if any.
 
+<br><a href="https://github.com/aregtech/areg-sdk/raw/master/docs/img/areg-services.png"><img src="https://github.com/aregtech/areg-sdk/raw/master/docs/img/areg-services.png" alt="AREG SDK distributed services" style="width:70%;height:70%"/></a><br>
+
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ## 🎯 Todo
 - [X] One
 - [X] Two
 - [X] Three
 - [ ] Four
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ## 🔗 Links
 + [Confluence](https://adjustcom.atlassian.net/)
 + [ReDoc](http://127.0.0.1:13010/redoc)
 + [Postman](https://)
 + [Production](https://console.cloud.yandex.ru/)
 
-## 💻 Deployment
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## ☁️ Deployment
 To run server:
 1. Start 
 2. Run postgres (locally or in docker) and create a DB there, see details on [Confluence](https://adjustcom.atlassian.net/)
 3. Copy `.env.sample` to `.env`. Make sure DATABASE_URL is a valid link to the DB dedicated to this service.
 4. Run `make start`
 
-## 🚀 Usage
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 💻 Usage
 
 ```
 java -jar df.jar [OPTIONS] [FLAGS] [COMMANDS]                                 
@@ -80,6 +90,8 @@ COMMANDS:
    --print-requests         print dump requests to stdout as json/yaml         
    --print-openapi          print OpenAPI specification to stdout as json/yaml
 ```
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 🔭 Usage Examples
 Start server on dump file:
@@ -132,6 +144,8 @@ java -jar df.jar --print-openapi --dump dump.txt
 </details>
 If you still need examples make sure to check out the <a href="Cheatsheet.md">cheatsheet</a>.
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## Code analysis
 We use some tools to ensure code quality:
 + [flake8](https://github.com/PyCQA/flake8) – code style
@@ -144,10 +158,14 @@ To perform all checks, run:
 make check
 ```
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## Tests
 ```bash
 make test
 ```
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Containerization
 ### Docker
