@@ -27,7 +27,7 @@ Simple project description with few examples, schemas and gifs if any.
 + [Postman](https://)
 + [Production](https://console.cloud.yandex.ru/)
 
-## 💻 Development
+## 💻 Deployment
 To run server:
 1. Start 
 2. Run postgres (locally or in docker) and create a DB there, see details on [Confluence](https://adjustcom.atlassian.net/)
