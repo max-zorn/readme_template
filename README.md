@@ -37,10 +37,10 @@ Simple project description with few examples, schemas and gifs if any.
 
 ## ☁️ Deployment
 To run server:
-1. Start 
-2. Run postgres (locally or in docker) and create a DB there, see details on [Confluence](https://adjustcom.atlassian.net/)
-3. Copy `.env.sample` to `.env`. Make sure DATABASE_URL is a valid link to the DB dedicated to this service.
-4. Run `make start`
+1. Fill yaml in github actions dir
+2. Run workflow 
+3. ...
+4. Profit
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -52,37 +52,13 @@ java -jar df.jar [OPTIONS] [FLAGS] [COMMANDS]
 OPTIONS:                                                                       
    --host <host>            host name, default: localhost                      
    --port <number>          HTTP TCP port number, default: 8080                
-   --port-ssl <number>      HTTPS TCP port number, default: 8443               
-   --dump <file|url>...     dump text file(s)/URL(s)
-   --db <file|url>          json/yaml/csv memory file to populate templates    
-   --db-export <file>       export memory to json file                         
-   --db-path <path>         serve live memory file at specified context        
-   --dir <dir>              forward unmatched requests to specified directory            
-   --js <file|url>...       JavaScript file(s) for script engine context       
-   --openapi-path <path>    serve built-in OpenAPI client at specified context 
-   --openapi-title <text>   provide custom OpenAPI specification title         
-   --collect <file>         collect live request/response to file              
-   --format <json|yaml>     output format for --print-* commands, default: json
-   --status <number>        status code for non-matching requests, default: 404
-   --max-log-body <number>  max body bytes in console log, default: unlimited  
+
                                                                                
 FLAGS:                                                                         
    --no-log                 disable request/response console logging           
    --no-log-request-info    disable request info in console logging            
    --no-log-headers         disable request/response headers in console logging
-   --no-log-body            disable request/response body in console logging   
-   --no-cors                disable CORS headers                               
-   --no-etag                disable 'ETag' header                              
-   --no-server              disable 'Server' header                            
-   --no-watch               disable watch files for changes                    
-   --no-color               disable ANSI color output for --print-* commands   
-   --no-pretty              disable prettyprint for --print-* commands         
-   --no-template            disable template processing                        
-   --no-wildcard            disable wildcard processing                        
-   --no-bak                 disable backup old memory file before overwrite    
-   --strict-json            enable strict JSON comparison                      
-   --redirect               enable redirect HTTP to HTTPS                      
-   --db-export-on-exit      export memory only on server close event           
+       
                                                                                
 COMMANDS:                                                                      
    --help                   print help message                                 
@@ -146,7 +122,7 @@ If you still need examples make sure to check out the <a href="Cheatsheet.md">ch
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## Code analysis
+## 🧐 Code analysis
 We use some tools to ensure code quality:
 + [flake8](https://github.com/PyCQA/flake8) – code style
 + [isort](https://github.com/timothycrosley/isort) – imports order
@@ -160,14 +136,14 @@ make check
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## Tests
+## 🧪 Tests
 ```bash
 make test
 ```
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## Containerization
+## 📦 Containerization
 ### Docker
 
 You can use docker and docker-compose to work with your project.
