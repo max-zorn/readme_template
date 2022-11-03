@@ -92,33 +92,6 @@ Start server with built-in OpenAPI client with custom title:
 java -jar df.jar --openapi-path /api --openapi-title 'My REST API v18.2.1' --dump dump.txt
 </pre>
 </details>
-<details>
-<summary>
-	even more examples&hellip;
-</summary>
-<br>
-Collect live request/response to file:
-<pre>
-java -jar df.jar --collect /home/john/live.txt --dump dump.txt
-</pre>
-Specify JSON data file to populate templates:
-<pre>
-java -jar df.jar --data /home/john/data.json --dump dump.txt
-</pre>
-Print dump files statistics to stdout as JSON:
-<pre>
-java -jar df.jar --print-info --dump dump.txt
-</pre>
-Print dump requests to stdout as JSON:
-<pre>
-java -jar df.jar --print-requests --dump dump.txt
-</pre>
-Print OpenAPI specification to stdout as JSON:
-<pre>
-java -jar df.jar --print-openapi --dump dump.txt
-</pre>
-</details>
-If you still need examples make sure to check out the <a href="Cheatsheet.md">cheatsheet</a>.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
